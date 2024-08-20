@@ -1,0 +1,76 @@
+h1{
+    border: 2px solid #ffffff;
+    color: aliceblue;
+    text-align: center; font-size: 40px
+}
+h2{
+    color: aliceblue;
+    font-size: 60px;
+    border-style: dotted;
+    text-align: center;
+}
+h3{
+    color: aliceblue;
+}
+body{
+    background-color: #760060;
+}
+
+.corpo{
+    
+    padding: 10px 10px 10px 10px;
+}
+img {
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+.nav {
+    background-color: rgb(255, 0, 179); 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+P{
+    color: aliceblue;
+    text-align: center;
+}
+.fotos{
+    display: flex;
+    align-items: center; 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
+}
+.video{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sons{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
